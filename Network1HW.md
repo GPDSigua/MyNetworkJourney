@@ -148,8 +148,19 @@ ip add dhcp
 no shut
 do sh ip int brief | ex una 
 ~~~
- ### Documentation of the Assignament
+## Documentation of the Assignament
 
+### Documentaion 1
+![Doc1](images/doc1.png)
+
+### Documentaion 2
+![Doc2](images/doc2.png)
+
+### Documentaion 3
+![Doc3](images/doc3.png)
+
+### Documentaion 4
+![Doc4](images/doc4.png)
 
 
 
