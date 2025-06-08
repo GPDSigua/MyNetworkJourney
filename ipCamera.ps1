@@ -1,4 +1,17 @@
-﻿config t
+config t
+ip routing
+ip dhcp pool CAMERA6
+host 10.22.50.6 255.255.255.0
+client-identifier 001a.0709.c238
+ip dhcp pool CAMERA8
+host 10.22.50.8 255.255.255.0
+client-identifier 001a.0704.7f6a
+end
+show ip dhcp binding
+ 
+ 
+ 
+ config t
    hostname CUCM-22
    enable secret pass
    service password-encryption
